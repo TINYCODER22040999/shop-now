@@ -1,0 +1,39 @@
+/* Custom Navbar Styling */
+
+.custom-navbar {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-navbar .navbar-brand {
+  font-size: 1.4rem;
+  letter-spacing: 0.5px;
+}
+
+.custom-navbar .nav-link {
+  color: #f8f9fa !important;
+  transition: color 0.3s ease-in-out;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ffc107 !important; 
+}
+
+.dropdown-menu {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.dropdown-item {
+  transition: background 0.2s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa;
+  color: #000;
+}
+
+.navbar-toggler {
+  border: none;
+}
